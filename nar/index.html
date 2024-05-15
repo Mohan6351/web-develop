@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Predictor</title>
+</head>
+<body>
+   <input type="text"name="" id="name"placeholder="enter your name">
+   <button type="submit" id="submit" onclick="result()">check</button>
+   <p id="result"></p>
+   <script>
+    function result(){
+        const name=document.getElementById('name');
+        var marks=Math.random()*100;
+        var result=document.getElementById('result');
+        
+        if(marks<35)
+        {
+            result.innerHTML="your  result fail";
+        }else if(marks==35){
+        result.innerHTML="your result just pass";
+        }else if(marks==35&&marks<60){
+            result.innerHTML="ur result is 2st class";
+        }else if(marks>60&&marks<85){
+            result.innerHTML="ur result is 1nd class";
+        }else if(marks>=85){
+            result.innerHTML="ur result is distinction";
+        }
+        }
+    
+    
+   </script> 
+</body>
+</html>
