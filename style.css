@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    font-style: italic;
+    background-color: burlywood;
+    /*text properties*/
+    color: blue;/*adding coloe to text*/
+    direction: rtl;
+    letter-spacing: 50px;
+    word-spacing: 500px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 1px black;/*px,pt,in,cm,%,rem,em*/
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 50%;
+    border-radius: 25%;
+}

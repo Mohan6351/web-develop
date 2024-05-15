@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>love prediction</center></h1>
+    <center><input type="text"name="" id="name"placeholder="enter your name"><br><br>
+    <input type="text"name="" id="name"placeholder="enter your crush 4name"><br><br>
+   <button type="submit" id="submit" onclick="result()">check</button></center><br><br><br><br><br><br>
+
+   <center><p id="result"></p></center>
+   <script>
+    function result(){
+        const name=document.getElementById('name');
+        
+        const crush=document.getElementById("crush");
+        
+        var marks=Math.random()*100;
+        var result=document.getElementById('result');
+        result.innerHTML="propability of getting with relation ship is"+""+marks;
+    }
+        </script>
+     <style>
+        *{
+            
+            font-size: larger;
+            font-style: italic;
+            border-radius: 121cm;
+            border-color: darkred;
+            background-image:url("71+17bVYHxL._SY450_.jpg");
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 50px;
+            
+    
+        }
+        
+     </style>   
+</body>
+</html>
